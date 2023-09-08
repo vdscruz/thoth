@@ -2,3 +2,5 @@
 **/obj
 **/.git
 **/out
+**/.vs
+**/.idea
