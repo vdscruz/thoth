@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.200.45" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Abstracoes\Thoth.Abstracoes\Thoth.Abstracoes.csproj" />
   </ItemGroup>
 
