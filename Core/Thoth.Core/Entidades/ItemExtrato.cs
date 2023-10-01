@@ -8,13 +8,13 @@ namespace Thoth.Core.Entidades
 
         public Operacao Operacao { get; set; }
 
-        public string Codigo { get; set; }
+        public string Codigo { get; set; } = null!;
 
         public TipoMovimento TipoMovimento { get; set; }
 
-        public string NomeProduto { get; set; }
+        public string NomeProduto { get; set; } = null!;
 
-        public string Instituicao { get; set; }
+        public string Instituicao { get; set; } = null!;
 
         public double Quantidade { get; set; }
 
